@@ -1,6 +1,6 @@
-const clapButton = document.getElementById('ballot-button');
+const ballotButton = document.getElementById('ballot-button');
 
-clapButton.addEventListener('click', switchBackground);
+ballotButton.addEventListener('click', switchBackground);
 
 function randomColor() {
   const red = Math.floor(Math.random() * 256);
