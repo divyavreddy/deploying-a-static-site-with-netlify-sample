@@ -1,4 +1,4 @@
-const clapButton = document.getElementById('clap-button');
+const clapButton = document.getElementById('ballot-button');
 
 clapButton.addEventListener('click', switchBackground);
 
