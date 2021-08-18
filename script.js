@@ -1,5 +1,7 @@
 const ballotButton = document.getElementById('ballot-button');
+const voteSelection = document.getElementById('options');
 
+voteSelection.addEventsListener('click');
 ballotButton.addEventListener('click', switchBackground);
 
 function randomColor() {
@@ -10,6 +12,11 @@ function randomColor() {
   const color = `rgb(${red}, ${green}, ${blue})`
   return color;
 }
+/*
+function tally() {
+  const list = voteSelection;
+  document.body
+}*/
 
 function switchBackground() {
   const backgroundColor = randomColor();
