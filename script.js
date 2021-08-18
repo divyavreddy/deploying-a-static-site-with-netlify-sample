@@ -16,16 +16,24 @@ function randomColor() {
 }
 
 function changeBackground1() {
-  const backgroundColor = rgb(240, 255, 255);
-  document.body.style.backgroundColor = backgroundColor;
+  const red = 240;
+  const green = 255;
+  const blue = 255;
+  const color = `rgb(${red}, ${green}, ${blue})`;
+  const backgroundColor1 = color;
+  document.body.style.backgroundColor1 = backgroundColor1;
 }
 
 function changeBackground2() {
-  const backgroundColor = rgb(255, 0, 0);
-  document.body.style.backgroundColor = backgroundColor;
+  const red = 255;
+  const green = 0;
+  const blue = 0;
+  const color = `rgb(${red}, ${green}, ${blue})`;
+  const backgroundColor2 = color;
+  document.body.style.backgroundColor2 = backgroundColor2;
 }
 
 function switchBackground() {
-  const backgroundColor = randomColor();
-  document.body.style.backgroundColor = backgroundColor;
+  const backgroundColor3 = randomColor();
+  document.body.style.backgroundColor3 = backgroundColor3;
 }
